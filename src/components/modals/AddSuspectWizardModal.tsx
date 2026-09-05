@@ -376,7 +376,7 @@ export const AddSuspectWizardModal: React.FC<AddSuspectWizardModalProps> = ({
   return (
     <div 
       onClick={onClose}
-      className="fixed inset-0 z-50 overflow-y-auto bg-slate-950/50 backdrop-blur-xs flex items-center justify-center p-3 sm:p-4 animate-in fade-in duration-150 cursor-pointer"
+      className="fixed inset-0 z-[9999] overflow-y-auto bg-slate-950/50 backdrop-blur-xs flex items-center justify-center p-3 sm:p-4 animate-in fade-in duration-150 cursor-pointer"
     >
       <div 
         onClick={e => e.stopPropagation()}
